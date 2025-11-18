@@ -1,0 +1,44 @@
+
+
+This is a collection of data related to the direct marketing campaigns conducted by a banking institution. These campaigns primarily involved phone calls with customers.
+
+The purpose behind this dataset is to train a predictive model that can determine if a given customer will subscribe to a term deposit based on these various features. By analyzing historical data on successful and unsuccessful subscription outcomes, patterns can be identified which help predict future subscription behavior.
+
+The dataset contains various features that provide insights into customer attributes and campaign outcomes. These features include:
+
+
+
+Age: The age of the customer.
+
+Job: The occupation of the customer.
+
+Marital Status: The marital status of the customer.
+
+Education: The education level of the customer.
+
+Default: Whether or not the customer has credit in default.
+
+Balance: The balance of the customer's account.
+
+Housing: Whether or not the customer has a housing loan (mortgage).
+
+Loan: Whether or not the customer has a personal loan (not for housing).
+
+Contact Communication Type: The method used to contact the customer (e.g., telephone, cellular).
+
+Day: The day of the month when the last contact with the customers was made.
+
+Month: The month when the last contact with the customers was made.
+
+Duration: The duration (in seconds) of the last contact with customers during a campaign.
+
+Campaign Contacts Count: Number of contacts performed during this campaign for each customer.
+
+Previous Contacts Count: Number of contacts performed before this campaign for each customer.
+
+pdays : number days passed since previously contacted form previous camapign.
+
+poutcome : outcome from previous marketing campaign
+
+y: Whether the customer subscribed to a term deposit. This is the target.
+
